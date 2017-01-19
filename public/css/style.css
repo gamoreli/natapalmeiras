@@ -1,5 +1,6 @@
 body{
 	background: #003a00;
+    padding-top: 115px;
 }
 
 a{
@@ -39,4 +40,19 @@ a:hover{
 .navbar-brand .title{
     display: inline;
     padding: 20px;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+    padding: 33px 0px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: green;
+}
+.navbar-nav>li>a{
+    padding: 37px 20px;
 }

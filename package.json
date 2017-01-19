@@ -1,5 +1,5 @@
 {
-  "name": "Nata Palmeirense"
+  "name": "Nata Palmeirense",
   "private": true,
   "scripts": {
     "prod": "gulp --production",
