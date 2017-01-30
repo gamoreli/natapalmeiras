@@ -2,6 +2,6 @@
 
 @section('content')
 	<div id="vueapp">
-		@{{items}}
+		<feedpanel title="G1"></feedpanel>
 	</div>
 @endsection
