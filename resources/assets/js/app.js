@@ -15,6 +15,16 @@ require('./bootstrap');
 
 Vue.component('example', require('./components/Example.vue'));
 
-const app = new Vue({
-    el: '#app'
+var app = new Vue({
+	el: '#vueapp',
+	data:{
+		item: []
+	}
+});
+
+app.$http.get('http://falkor-cda.bastian.globo.com/feeds/5e9b983f-dbf6-4eee-b7c7-62cd0f4bc14d/posts/page/1').then(response => {
+	// this.items = response.body;
+	console.log(response);
+},response => {
+	console.log("erro");
 });
